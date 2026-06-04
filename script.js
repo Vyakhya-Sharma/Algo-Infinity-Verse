@@ -2244,7 +2244,7 @@ function updateProfile() {
   }
 
   // Update profile name in profile section
-  var profileSectionName = document.getElementById("profileNameSection");
+  var profileSectionName = document.getElementById("profileSectionName");
   if (profileSectionName) {
     profileSectionName.textContent = userProgress.name;
   }
